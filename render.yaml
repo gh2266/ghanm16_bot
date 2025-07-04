@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: ghanem-bot
+    env: python
+    buildCommand: ""
+    startCommand: "python main.py"
+    envVars:
+      - key: BOT_TOKEN
+        value: "توكن البوت هنا"
+      - key: CHANNEL_USERNAME
+        value: "@GH"
